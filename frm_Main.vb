@@ -242,7 +242,7 @@ Public Class frm_Main
         Me.btn_action.FlatAppearance.BorderSize = 0
         Me.btn_action.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.btn_action.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.btn_action.Image = Global.Cryptal.My.Resources.Resources.icon_key
+        Me.btn_action.Image = Global.Cryptal.My.Resources.Resources.key3
         Me.btn_action.ImageAlign = System.Drawing.ContentAlignment.BottomLeft
         Me.btn_action.Location = New System.Drawing.Point(299, 18)
         Me.btn_action.Name = "btn_action"
@@ -308,7 +308,7 @@ Public Class frm_Main
         '
         'PictureBox1
         '
-        Me.PictureBox1.BackgroundImage = Global.Cryptal.My.Resources.Resources.Security1
+        Me.PictureBox1.BackgroundImage = Global.Cryptal.My.Resources.Resources.Security
         Me.PictureBox1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
         Me.PictureBox1.Location = New System.Drawing.Point(3, 0)
         Me.PictureBox1.Name = "PictureBox1"
@@ -819,10 +819,6 @@ Public Class frm_Main
     Private Sub LinkLabel1_LinkClicked(sender As Object, e As LinkLabelLinkClickedEventArgs) Handles LinkLabel1.LinkClicked
         Me.Opacity = 0.3
         FrmAbout.ShowDialog()
-    End Sub
-
-    Private Sub frm_Main_Load(sender As Object, e As EventArgs) Handles MyBase.Load
-
     End Sub
 
     Private Sub pnlHaut_MouseMove(sender As Object, e As MouseEventArgs) Handles pnlHaut.MouseMove

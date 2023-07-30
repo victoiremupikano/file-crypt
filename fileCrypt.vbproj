@@ -29,6 +29,7 @@
     <OldToolsVersion>0.0</OldToolsVersion>
     <UpgradeBackupLocation />
     <IsWebBootstrapper>false</IsWebBootstrapper>
+    <TargetFrameworkProfile />
     <PublishUrl>publish\</PublishUrl>
     <Install>true</Install>
     <InstallFrom>Disk</InstallFrom>
@@ -44,7 +45,6 @@
     <UseApplicationTrust>false</UseApplicationTrust>
     <PublishWizardCompleted>true</PublishWizardCompleted>
     <BootstrapperEnabled>true</BootstrapperEnabled>
-    <TargetFrameworkProfile />
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <OutputPath>bin\</OutputPath>
@@ -158,13 +158,13 @@
   <ItemGroup>
     <Content Include="Encrypted.ico" />
     <Content Include="Logout.ico" />
-    <None Include="Resources\073-1281.png" />
-    <None Include="Resources\Security1.png" />
-    <None Include="Resources\icon_key.png" />
+    <None Include="Resources\key2.png" />
+    <None Include="Resources\Security.png" />
+    <None Include="Resources\key4.png" />
     <None Include="Resources\icon_minus-06.png" />
     <None Include="Resources\icon_close.png" />
-    <None Include="Resources\icon_key_alt.png" />
-    <None Include="Resources\073-128.png" />
+    <None Include="Resources\key3.png" />
+    <None Include="Resources\key1.png" />
   </ItemGroup>
   <ItemGroup>
     <BootstrapperPackage Include=".NETFramework,Version=v4.0">

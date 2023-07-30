@@ -92,7 +92,7 @@ Partial Class FrmAbout
         '
         'PictureBox1
         '
-        Me.PictureBox1.BackgroundImage = Global.Cryptal.My.Resources.Resources._073_1281
+        Me.PictureBox1.BackgroundImage = Global.Cryptal.My.Resources.Resources.key2
         Me.PictureBox1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
         Me.PictureBox1.Location = New System.Drawing.Point(453, 176)
         Me.PictureBox1.Name = "PictureBox1"
