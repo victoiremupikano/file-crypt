@@ -2,7 +2,7 @@ Imports System.IO
 Imports System.Security.Cryptography
 
 
-Public Class frm_Main
+Public Class frmMain
 
     Inherits System.Windows.Forms.Form
 
@@ -70,7 +70,7 @@ Public Class frm_Main
     Friend WithEvents FolderBrowserDialog As System.Windows.Forms.FolderBrowserDialog
     <System.Diagnostics.DebuggerStepThrough()> Private Sub InitializeComponent()
         Me.components = New System.ComponentModel.Container()
-        Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(frm_Main))
+        Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(frmMain))
         Me.pg_statut = New System.Windows.Forms.ProgressBar()
         Me.OpenFileDialog = New System.Windows.Forms.OpenFileDialog()
         Me.FolderBrowserDialog = New System.Windows.Forms.FolderBrowserDialog()
